@@ -40,7 +40,6 @@ nav a {
   color: black;
 }
 
-
 /* main containerr */
 .content {
   display: flex;
@@ -49,6 +48,9 @@ nav a {
   margin-bottom: 50px;
   margin-left: auto;
   padding-top: 80px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 div {
@@ -58,10 +60,11 @@ div {
 column {
   display: flex;
   flex-direction: column;
-  margin-right: 30px; /* not sure about this padding*/
+  margin-right: 30px;
+  /* not sure about this padding*/
 }
 
-.large.column {
+.large {
   width: 630px;
 }
 
@@ -71,4 +74,53 @@ column {
 
 .small {
   width: 240px;
+}
+
+/*content image*/
+.regtitle {
+  font-family: Georgia;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  flex-items:
+}
+
+.imgtitle {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#research {
+  background-image: url(../img/hipster.png);
+  background-repeat: repeat;
+    display: flex;
+      width: 630px;
+        height: 300px;
+      
+}
+
+#earth {
+  background-image: url(../img/fallseason.png);
+  background-repeat: repeat;
+    display: flex;
+      width: 630px;
+      height: 300px;
+
+}
+
+#mother {
+background-image: url(../img/story.png);
+    font-size: 40px;
+      display: flex;
+        width: 630px;
+          height: 300px;
+}
+
+#cats {
+  background-image: url(../img/catceo.png);
+    display: flex;
+    width: 300px;
+      height: 300px;
 }
